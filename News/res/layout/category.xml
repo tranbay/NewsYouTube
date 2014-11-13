@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="2dip"
+    android:paddingBottom="2dip"
+    android:weightSum="5" >
+    
+    <ImageView 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/ivIcon"
+     android:layout_gravity="center_vertical"   
+     android:layout_weight="4"
+     android:src="@drawable/vnexpress"
+        />
+    <TextView 
+     android:id="@+id/tvCategory"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_vertical"
+     android:layout_weight="1"
+     android:text=" Tran Ba Y"
+     />
+</LinearLayout>
+

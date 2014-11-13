@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33b5e5"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblNews"
+      
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_rss"
+        android:drawableRight="@drawable/ic_more"
+        android:text="News" />
+
+    <TextView
+        android:id="@+id/lblYouTube"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_youtube"
+        android:drawableRight="@drawable/ic_more"
+        android:text="Youtube" />
+
+    <TextView
+        android:id="@+id/lblAbout"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_about"
+        android:text="About" />
+
+</LinearLayout>
